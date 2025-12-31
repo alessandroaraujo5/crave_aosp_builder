@@ -15,7 +15,7 @@ on:
         
 jobs:
   run-devspace-and-tmux:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
 
     steps:
     - name: Checkout code
@@ -56,3 +56,4 @@ jobs:
         fi
         cd actions-runner
          ./config.sh --unattended --url "https://github.com/${{ github.repository }}" --token "${{ inputs.RUNNER_TOKEN }}""
+
