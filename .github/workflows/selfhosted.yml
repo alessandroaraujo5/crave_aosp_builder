@@ -75,7 +75,7 @@ on:
 
 jobs:
   Start-Runner:
-    runs-on: ubuntu-24.02
+    runs-on: ubuntu-latest
 
     steps:
     - name: Checkout code
